@@ -1,0 +1,92 @@
+{
+    "channel": [
+        {
+            "channelName": "ABC 17",
+            "shows": [
+                "20/20",
+                "ABC World News Now",
+                "ABC 17 News This Morning",
+                "ABC World News with David Muir",
+                "ABC 17 News Weekend Edition",
+                "ABC 17 SportsZone",
+                "ABC 17 News at Six",
+                "ABC 17 News at 6:30",
+                "ABC 17 News at Ten",
+                "ABC17 News at 5",
+                "ABC World News with Diane Sawyer",
+                "America This Morning",
+                "Anderson Live",
+                "Good Morning America",
+                "Good Morning America Weekend",
+                "Jimmy Kimmel Live",
+                "LIVE! with Kelly and Michael",
+                "Nightline",
+                "The Chew",
+                "The View",
+                "This Week with George Stephanopoulos"
+            ]
+        },
+        {
+            "channelName": "The CW",
+            "shows": [
+                "Children Talk",
+                "Green Screen Adventures",
+                "Workforce"
+            ]
+        },
+        {
+            "channelName": "KOMU",
+            "shows": [
+                "Dateline NBC",
+                "Dr. Phil",
+                "Dr. OZ",
+                "Early Today",
+                "Football Night in America",
+                "KOMU 8 News at 12",
+                "KOMU 8 News at 5",
+                "KOMU News 8 at 6",
+                "KOMU 8 News at 10",
+                "KOMU 8 News at 10 Weekend",
+                "KOMU 8 News Today",
+                "KMOU 8 Sports Show",
+                "Late Night with Jimmy Fallon",
+                "Last Call with Carson Daly",
+                "Meet the Press",
+                "NBC Nightly News",
+                "The Chris Matthews Show",
+                "Today",
+                "Tonight Show with Jay Leno",
+                "Wall Street Journal Report with Maria Bartiromo"
+            ]
+        },
+        {
+            "channelName": "Me-TV",
+            "shows": [
+                "The Bob Newhart Show",
+                "The Donna Reed Show"
+            ]
+        },
+        {
+            "channelName": "MyZou TV",
+            "shows": [
+                "I cannot find the list for this.",
+                "I will get it to you when I find it."
+            ]
+        },
+        {
+            "channelName": "SoFox22",
+            "shows": [
+                "ABC News at 9 on FOX 22",
+                "ABC17 News this Morning",
+                "FOX College Saturday",
+                "FOX Gamebreak",
+                "FOX News Sunday with Chris Wallace",
+                "FOX NFL Sunday",
+                "Inside Edition",
+                "Steve Harvey",
+                "The OT",
+                "TMZ"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,208 @@
+{
+    "channel": [
+        {
+            "channelName": "ABC 17",
+            "shows": [
+                {
+                    "showName": "20/20"
+                },
+                {
+                    "showName": "ABC World News Now"
+                },
+                {
+                    "showName": "ABC 17 News This Morning"
+                },
+                {
+                    "showName": "ABC World News with David Muir"
+                },
+                {
+                    "showName": "ABC 17 News Weekend Edition"
+                },
+                {
+                    "showName": "ABC 17 SportsZone"
+                },
+                {
+                    "showName": "ABC 17 News at Six"
+                },
+                {
+                    "showName": "ABC 17 News at 6:30"
+                },
+                {
+                    "showName": "ABC 17 News at Ten"
+                },
+                {
+                    "showName": "ABC17 News at 5"
+                },
+                {
+                    "showName": "ABC World News with Diane Sawyer"
+                },
+                {
+                    "showName": "America This Morning"
+                },
+                {
+                    "showName": "Anderson Live"
+                },
+                {
+                    "showName": "Good Morning America"
+                },
+                {
+                    "showName": "Good Morning America Weekend"
+                },
+                {
+                    "showName": "Jimmy Kimmel Live"
+                },
+                {
+                    "showName": "LIVE! with Kelly and Michael"
+                },
+                {
+                    "showName": "Nightline"
+                },
+                {
+                    "showName": "The Chew"
+                },
+                {
+                    "showName": "The View"
+                },
+                {
+                    "showName": "This Week with George Stephanopoulos"
+                }
+            ]
+        },
+        {
+            "channelName": "The CW",
+            "shows": [
+                {
+                    "showName": "Children Talk"
+                },
+                {
+                    "showName": "Green Screen Adventures"
+                },
+                {
+                    "showName": "Workforce"
+                }
+            ]
+        },
+        {
+            "channelName": "KOMU",
+            "shows": [
+                {
+                    "showName": "Dateline NBC"
+                },
+                {
+                    "showName": "Dr. Phil"
+                },
+                {
+                    "showName": "Dr. OZ"
+                },
+                {
+                    "showName": "Early Today"
+                },
+                {
+                    "showName": "Football Night in America"
+                },
+                {
+                    "showName": "KOMU 8 News at 12"
+                },
+                {
+                    "showName": "KOMU 8 News at 5"
+                },
+                {
+                    "showName": "KOMU News 8 at 6"
+                },
+                {
+                    "showName": "KOMU 8 News at 10"
+                },
+                {
+                    "showName": "KOMU 8 News at 10 Weekend"
+                },
+                {
+                    "showName": "KOMU 8 News Today"
+                },
+                {
+                    "showName": "KMOU 8 Sports Show"
+                },
+                {
+                    "showName": "Late Night with Jimmy Fallon"
+                },
+                {
+                    "showName": "Last Call with Carson Daly"
+                },
+                {
+                    "showName": "Meet the Press"
+                },
+                {
+                    "showName": "NBC Nightly News"
+                },
+                {
+                    "showName": "The Chris Matthews Show"
+                },
+                {
+                    "showName": "Today"
+                },
+                {
+                    "showName": "Tonight Show with Jay Leno"
+                },
+                {
+                    "showName": "Wall Street Journal Report with Maria Bartiromo"
+                }
+            ]
+        },
+        {
+            "channelName": "Me-TV",
+            "shows": [
+                {
+                    "showName": "The Bob Newhart Show"
+                },
+                {
+                    "showName": "The Donna Reed Show"
+                }
+            ]
+        },
+        {
+            "channelName": "MyZou TV",
+            "shows": [
+                {
+                    "showName": "I cannot find the list for this."
+                },
+                {
+                    "showName": "I will get it to you when I find it."
+                }
+            ]
+        },
+        {
+            "channelName": "SoFox22",
+            "shows": [
+                {
+                    "showName": "ABC News at 9 on FOX 22"
+                },
+                {
+                    "showName": "ABC17 News this Morning"
+                },
+                {
+                    "showName": "FOX College Saturday"
+                },
+                {
+                    "showName": "FOX Gamebreak"
+                },
+                {
+                    "showName": "FOX News Sunday with Chris Wallace"
+                },
+                {
+                    "showName": "FOX NFL Sunday"
+                },
+                {
+                    "showName": "Inside Edition"
+                },
+                {
+                    "showName": "Steve Harvey"
+                },
+                {
+                    "showName": "The OT"
+                },
+                {
+                    "showName": "TMZ"
+                }
+            ]
+        }
+    ]
+}
