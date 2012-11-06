@@ -36,6 +36,8 @@
 		F19ED3AE1649A9810035277F /* surprise1.png in Resources */ = {isa = PBXBuildFile; fileRef = F19ED3A11649A9810035277F /* surprise1.png */; };
 		F19ED3AF1649A9810035277F /* surprise2.png in Resources */ = {isa = PBXBuildFile; fileRef = F19ED3A21649A9810035277F /* surprise2.png */; };
 		F19ED3B01649A9810035277F /* surprise3.png in Resources */ = {isa = PBXBuildFile; fileRef = F19ED3A31649A9810035277F /* surprise3.png */; };
+		F19ED3B21649B32B0035277F /* TI image.png in Resources */ = {isa = PBXBuildFile; fileRef = F19ED3B11649B32B0035277F /* TI image.png */; };
+		F19ED3B41649B3A70035277F /* TI image copy.png in Resources */ = {isa = PBXBuildFile; fileRef = F19ED3B31649B3A70035277F /* TI image copy.png */; };
 		F1F4D6281630DC060020A41B /* FelipeChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F4D6271630DC060020A41B /* FelipeChannelViewController.m */; };
 		F1F4D62E1630EBAA0020A41B /* FelipeShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F4D62D1630EBAA0020A41B /* FelipeShowViewController.m */; };
 		F1FB61DE163A418E001157CD /* blue1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1FB61D9163A418E001157CD /* blue1.jpg */; };
@@ -93,6 +95,8 @@
 		F19ED3A11649A9810035277F /* surprise1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = surprise1.png; path = ../surprise/surprise1.png; sourceTree = "<group>"; };
 		F19ED3A21649A9810035277F /* surprise2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = surprise2.png; path = ../surprise/surprise2.png; sourceTree = "<group>"; };
 		F19ED3A31649A9810035277F /* surprise3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = surprise3.png; path = ../surprise/surprise3.png; sourceTree = "<group>"; };
+		F19ED3B11649B32B0035277F /* TI image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TI image.png"; sourceTree = "<group>"; };
+		F19ED3B31649B3A70035277F /* TI image copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TI image copy.png"; sourceTree = "<group>"; };
 		F1F4D6261630DC060020A41B /* FelipeChannelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FelipeChannelViewController.h; sourceTree = "<group>"; };
 		F1F4D6271630DC060020A41B /* FelipeChannelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FelipeChannelViewController.m; sourceTree = "<group>"; };
 		F1F4D62C1630EBA90020A41B /* FelipeShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FelipeShowViewController.h; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 		0197DFF4161223280061DAB2 = {
 			isa = PBXGroup;
 			children = (
+				F19ED3B31649B3A70035277F /* TI image copy.png */,
+				F19ED3B11649B32B0035277F /* TI image.png */,
 				0197E009161223280061DAB2 /* Project1 */,
 				0197E02A161223280061DAB2 /* Project1Tests */,
 				0197E002161223280061DAB2 /* Frameworks */,
@@ -329,6 +335,8 @@
 				F19ED3AE1649A9810035277F /* surprise1.png in Resources */,
 				F19ED3AF1649A9810035277F /* surprise2.png in Resources */,
 				F19ED3B01649A9810035277F /* surprise3.png in Resources */,
+				F19ED3B21649B32B0035277F /* TI image.png in Resources */,
+				F19ED3B41649B3A70035277F /* TI image copy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
