@@ -38,9 +38,9 @@
 -(IBAction)sadPlus
 {
     sadCount +=1;
-    UIImage *btnImg1 = [UIImage imageNamed:@"happy1.png"];
-    UIImage *btnImg2 = [UIImage imageNamed:@"happy2.png"];
-    UIImage *btnImg3 = [UIImage imageNamed:@"happy3.png"];
+    UIImage *btnImg1 = [UIImage imageNamed:@"sad1.png"];
+    UIImage *btnImg2 = [UIImage imageNamed:@"sad2.png"];
+    UIImage *btnImg3 = [UIImage imageNamed:@"sad3.png"];
     UIImage *neutral = [UIImage imageNamed:@"neutral.png"];
     
     if(sadCount==1)
@@ -57,12 +57,12 @@
 }
 
 
--(IBAction)fearPlus
+-(IBAction)surprisePlus
 {
     fearCount +=1;
-    UIImage *btnImg1 = [UIImage imageNamed:@"happy1.png"];
-    UIImage *btnImg2 = [UIImage imageNamed:@"happy2.png"];
-    UIImage *btnImg3 = [UIImage imageNamed:@"happy3.png"];
+    UIImage *btnImg1 = [UIImage imageNamed:@"surprise1.png"];
+    UIImage *btnImg2 = [UIImage imageNamed:@"surprise2.png"];
+    UIImage *btnImg3 = [UIImage imageNamed:@"surprise3.png"];
     UIImage *neutral = [UIImage imageNamed:@"neutral.png"];
     
     if(fearCount==1)

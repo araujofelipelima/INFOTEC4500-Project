@@ -21,5 +21,5 @@ int fearCount;
 -(IBAction)happyPlus;
 -(IBAction)sadPlus;
 -(IBAction)angryPlus;
--(IBAction)fearPlus;
+-(IBAction)surprisePlus;
 @end
