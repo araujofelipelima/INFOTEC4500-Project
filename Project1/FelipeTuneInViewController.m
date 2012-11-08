@@ -16,6 +16,8 @@
 @implementation FelipeTuneInViewController
 - (void)viewWillAppear:(BOOL)animated{
     self.buttonLabel.layer.cornerRadius=8;
+
+
 }
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,6 +31,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -38,9 +41,9 @@
 }
 #pragma mark - actions
 -(IBAction)tuneIn:(id)sender{
-    float rd = 50.00/255.00;
-    float gr = 79.00/255.00;
-    float bl = 133.00/255.00;
+    float rd = 48.00/255.00;
+    float gr = 169.00/255.00;
+    float bl = 204.00/255.00;
     if([self.buttonLabel.text isEqualToString:(@"Tuned in")]){
         self.buttonLabel.text=@"Tune in!";
         self.buttonLabel.backgroundColor=[UIColor clearColor];
@@ -50,5 +53,6 @@
         self.buttonLabel.backgroundColor=[UIColor colorWithRed:rd green:gr blue:bl alpha:1.0];
         self.buttonLabel.textColor=[UIColor whiteColor];
     }
+    
 }
 @end

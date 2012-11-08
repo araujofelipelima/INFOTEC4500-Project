@@ -12,8 +12,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    //rd: 44 gr:114 bl:184
+    //rd:48 gr:169 bl:204
+    float rd = 44.00/255.00;
+    float gr = 114.00/255.00;
+    float bl = 184.00/255.00;
     // Override point for customization after application launch.
+    [[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:rd green:gr blue:bl alpha:1.0]];
     return YES;
+    
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
