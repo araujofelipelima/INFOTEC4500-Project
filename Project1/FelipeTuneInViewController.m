@@ -14,10 +14,12 @@
 @end
 
 @implementation FelipeTuneInViewController
+
+float rd = 48.00/255.00;
+float gr = 169.00/255.00;
+float bl = 204.00/255.00;
+
 - (void)viewWillAppear:(BOOL)animated{
-    float rd = 48.00/255.00;
-    float gr = 169.00/255.00;
-    float bl = 204.00/255.00;
     
     self.buttonLabel.layer.cornerRadius=8;
     self.commentButton.layer.cornerRadius = 8;
@@ -31,7 +33,7 @@
     self.commentButton.titleLabel.textColor = [UIColor whiteColor];
     self.rateButton.titleLabel.textColor = [UIColor whiteColor];
     self.pollButton.titleLabel.textColor = [UIColor whiteColor];
-
+    self.buttonLabel.textColor=[UIColor colorWithRed:rd green:gr blue:bl alpha:1.0];
 }
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -55,11 +57,6 @@
 }
 #pragma mark - actions
 -(IBAction)tuneIn:(id)sender{
-    float rd = 48.00/255.00;
-    float gr = 169.00/255.00;
-    float bl = 204.00/255.00;
-    
-   
     if([self.buttonLabel.text isEqualToString:(@"Tuned in")]){
         self.buttonLabel.text=@"Tune in!";
         self.buttonLabel.backgroundColor=[UIColor clearColor];

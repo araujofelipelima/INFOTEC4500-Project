@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		01116E99164C63E700246548 /* comment-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01116E97164C63E700246548 /* comment-icon.png */; };
 		01116E9A164C63E700246548 /* poll-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01116E98164C63E700246548 /* poll-icon.png */; };
-		01116E9D164C7DAD00246548 /* rate-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01116E9C164C7DAD00246548 /* rate-icon.png */; };
-		011CE1081652CB5000D62CEE /* bluebackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 011CE1071652CB5000D62CEE /* bluebackground.png */; };
 		0197E004161223280061DAB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0197E003161223280061DAB2 /* UIKit.framework */; };
 		0197E006161223280061DAB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0197E005161223280061DAB2 /* Foundation.framework */; };
 		0197E008161223280061DAB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0197E007161223280061DAB2 /* CoreGraphics.framework */; };
@@ -42,6 +40,8 @@
 		F19ED3B01649A9810035277F /* surprise3.png in Resources */ = {isa = PBXBuildFile; fileRef = F19ED3A31649A9810035277F /* surprise3.png */; };
 		F19ED3B21649B32B0035277F /* TI image.png in Resources */ = {isa = PBXBuildFile; fileRef = F19ED3B11649B32B0035277F /* TI image.png */; };
 		F19ED3B41649B3A70035277F /* TI image copy.png in Resources */ = {isa = PBXBuildFile; fileRef = F19ED3B31649B3A70035277F /* TI image copy.png */; };
+		F1BBDFF11654D995009F7C21 /* bluebackground.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BBDFEF1654D995009F7C21 /* bluebackground.png */; };
+		F1BBDFF21654D995009F7C21 /* rate-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F1BBDFF01654D995009F7C21 /* rate-icon.png */; };
 		F1F4D6281630DC060020A41B /* FelipeChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F4D6271630DC060020A41B /* FelipeChannelViewController.m */; };
 		F1F4D62E1630EBAA0020A41B /* FelipeShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F4D62D1630EBAA0020A41B /* FelipeShowViewController.m */; };
 		F1FB61DE163A418E001157CD /* blue1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1FB61D9163A418E001157CD /* blue1.jpg */; };
@@ -64,8 +64,6 @@
 /* Begin PBXFileReference section */
 		01116E97164C63E700246548 /* comment-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comment-icon.png"; sourceTree = SOURCE_ROOT; };
 		01116E98164C63E700246548 /* poll-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poll-icon.png"; sourceTree = SOURCE_ROOT; };
-		01116E9C164C7DAD00246548 /* rate-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rate-icon.png"; path = "../../Downloads/rate-icon.png"; sourceTree = "<group>"; };
-		011CE1071652CB5000D62CEE /* bluebackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluebackground.png; path = ../../Downloads/bluebackground.png; sourceTree = "<group>"; };
 		0197DFFF161223280061DAB2 /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0197E003161223280061DAB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0197E005161223280061DAB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -105,6 +103,8 @@
 		F19ED3A31649A9810035277F /* surprise3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = surprise3.png; path = ../surprise/surprise3.png; sourceTree = "<group>"; };
 		F19ED3B11649B32B0035277F /* TI image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TI image.png"; sourceTree = "<group>"; };
 		F19ED3B31649B3A70035277F /* TI image copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TI image copy.png"; sourceTree = "<group>"; };
+		F1BBDFEF1654D995009F7C21 /* bluebackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluebackground.png; sourceTree = "<group>"; };
+		F1BBDFF01654D995009F7C21 /* rate-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rate-icon.png"; sourceTree = "<group>"; };
 		F1F4D6261630DC060020A41B /* FelipeChannelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FelipeChannelViewController.h; sourceTree = "<group>"; };
 		F1F4D6271630DC060020A41B /* FelipeChannelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FelipeChannelViewController.m; sourceTree = "<group>"; };
 		F1F4D62C1630EBA90020A41B /* FelipeShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FelipeShowViewController.h; sourceTree = "<group>"; };
@@ -227,8 +227,8 @@
 		F19ED3931649A9810035277F /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				011CE1071652CB5000D62CEE /* bluebackground.png */,
-				01116E9C164C7DAD00246548 /* rate-icon.png */,
+				F1BBDFEF1654D995009F7C21 /* bluebackground.png */,
+				F1BBDFF01654D995009F7C21 /* rate-icon.png */,
 				01116E97164C63E700246548 /* comment-icon.png */,
 				01116E98164C63E700246548 /* poll-icon.png */,
 				F19ED3941649A9810035277F /* angry1.png */,
@@ -351,8 +351,8 @@
 				F19ED3B41649B3A70035277F /* TI image copy.png in Resources */,
 				01116E99164C63E700246548 /* comment-icon.png in Resources */,
 				01116E9A164C63E700246548 /* poll-icon.png in Resources */,
-				01116E9D164C7DAD00246548 /* rate-icon.png in Resources */,
-				011CE1081652CB5000D62CEE /* bluebackground.png in Resources */,
+				F1BBDFF11654D995009F7C21 /* bluebackground.png in Resources */,
+				F1BBDFF21654D995009F7C21 /* rate-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

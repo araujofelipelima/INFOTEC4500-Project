@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2840" systemVersion="11E2620" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="a3V-EU-PnS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="a3V-EU-PnS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1926"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
         <!--Felipe Channel View Controller - Channel-->
@@ -559,46 +559,6 @@
         <image name="poll-icon.png" width="288" height="288"/>
         <image name="rate-icon.png" width="288" height="288"/>
     </resources>
-    <classes>
-        <class className="FelipeChannelViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FelipeChannelViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="doRefresh"/>
-                <relationship kind="outlet" name="refreshButton" candidateClass="UIBarButtonItem"/>
-            </relationships>
-        </class>
-        <class className="FelipeShowViewController" superclassName="UITableViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FelipeShowViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="doRefresh"/>
-                <relationship kind="outlet" name="refreshButton" candidateClass="UIBarButtonItem"/>
-            </relationships>
-        </class>
-        <class className="FelipeTuneInViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/FelipeTuneInViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="tuneIn:"/>
-                <relationship kind="outlet" name="TuneInButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="buttonLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="commentButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="pollButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="rateButton" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-        <class className="werkRateViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/werkRateViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="angryPlus"/>
-                <relationship kind="action" name="happyPlus"/>
-                <relationship kind="action" name="sadPlus"/>
-                <relationship kind="action" name="surprisePlus"/>
-                <relationship kind="outlet" name="angry" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="fear" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="happy" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="sad" candidateClass="UIButton"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
