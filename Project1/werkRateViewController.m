@@ -28,7 +28,7 @@
         [self.happy setImage:btnImg2 forState:UIControlStateNormal];
     else if(happyCount==3)
         [self.happy setImage:btnImg3 forState:UIControlStateNormal];
-    else if(happyCount<=4)
+    else if(happyCount>=4)
     {
         happyCount = 0;
         [self.happy setImage:neutral forState:UIControlStateNormal];
@@ -49,7 +49,7 @@
         [self.sad setImage:btnImg2 forState:UIControlStateNormal];
     else if(sadCount==3)
         [self.sad setImage:btnImg3 forState:UIControlStateNormal];
-    else if(sadCount<=4)
+    else if(sadCount>=4)
     {
         sadCount = 0;
         [self.sad setImage:neutral forState:UIControlStateNormal];
@@ -71,7 +71,7 @@
         [self.fear setImage:btnImg2 forState:UIControlStateNormal];
     else if(fearCount==3)
         [self.fear setImage:btnImg3 forState:UIControlStateNormal];
-    else if(fearCount<=4)
+    else if(fearCount>=4)
     {
         fearCount = 0;
         [self.fear setImage:neutral forState:UIControlStateNormal];
@@ -92,13 +92,12 @@
         [self.angry setImage:btnImg2 forState:UIControlStateNormal];
     else if(angryCount==3)
         [self.angry setImage:btnImg3 forState:UIControlStateNormal];
-    else if(angryCount<=4)
+    else if(angryCount>=4)
     {
         angryCount = 0;
         [self.angry setImage:neutral forState:UIControlStateNormal];
     }
 }
-    
     
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -115,6 +114,7 @@
     sadCount = 0;
     angryCount = 0;
     fearCount = 0;
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
 }

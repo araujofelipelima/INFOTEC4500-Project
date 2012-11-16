@@ -19,6 +19,7 @@
 		0197E027161223280061DAB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0197E005161223280061DAB2 /* Foundation.framework */; };
 		0197E02F161223280061DAB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0197E02D161223280061DAB2 /* InfoPlist.strings */; };
 		0197E032161223280061DAB2 /* Project1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0197E031161223280061DAB2 /* Project1Tests.m */; };
+		637800631655CBD8009537AC /* DJonesLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 637800621655CBD8009537AC /* DJonesLoginViewController.m */; };
 		D113C63D164995C800F050A3 /* werkRateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D113C63C164995C800F050A3 /* werkRateViewController.m */; };
 		F116E97D163A116B000AFDE8 /* FelipeDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F116E97C163A116B000AFDE8 /* FelipeDataProvider.m */; };
 		F13E3780162E012900DFC68B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F13E377F162E012900DFC68B /* Default-568h@2x.png */; };
@@ -75,6 +76,8 @@
 		0197E02E161223280061DAB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0197E030161223280061DAB2 /* Project1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Project1Tests.h; sourceTree = "<group>"; };
 		0197E031161223280061DAB2 /* Project1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project1Tests.m; sourceTree = "<group>"; };
+		637800611655CBD8009537AC /* DJonesLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJonesLoginViewController.h; sourceTree = "<group>"; };
+		637800621655CBD8009537AC /* DJonesLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJonesLoginViewController.m; sourceTree = "<group>"; };
 		D113C63B164995C800F050A3 /* werkRateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = werkRateViewController.h; sourceTree = "<group>"; };
 		D113C63C164995C800F050A3 /* werkRateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = werkRateViewController.m; sourceTree = "<group>"; };
 		F116E97B163A116B000AFDE8 /* FelipeDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FelipeDataProvider.h; sourceTree = "<group>"; };
@@ -182,6 +185,8 @@
 				F18F54C0162E1665004DDB63 /* FelipeTuneInViewController.m */,
 				F19ED3931649A9810035277F /* Images */,
 				0197E00A161223280061DAB2 /* Supporting Files */,
+				637800611655CBD8009537AC /* DJonesLoginViewController.h */,
+				637800621655CBD8009537AC /* DJonesLoginViewController.m */,
 			);
 			path = Project1;
 			sourceTree = "<group>";
@@ -378,6 +383,7 @@
 				F1F4D62E1630EBAA0020A41B /* FelipeShowViewController.m in Sources */,
 				F116E97D163A116B000AFDE8 /* FelipeDataProvider.m in Sources */,
 				D113C63D164995C800F050A3 /* werkRateViewController.m in Sources */,
+				637800631655CBD8009537AC /* DJonesLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
