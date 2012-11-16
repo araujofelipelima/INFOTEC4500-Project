@@ -14,8 +14,26 @@
 @end
 
 @implementation FelipeTuneInViewController
+
+float rd = 48.00/255.00;
+float gr = 169.00/255.00;
+float bl = 204.00/255.00;
+
 - (void)viewWillAppear:(BOOL)animated{
+    
     self.buttonLabel.layer.cornerRadius=8;
+    self.commentButton.layer.cornerRadius = 8;
+    self.rateButton.layer.cornerRadius = 8;
+    self.pollButton.layer.cornerRadius  = 8;
+    
+    self.commentButton.layer.backgroundColor = [UIColor colorWithRed:rd green:gr blue:bl alpha:1.0].CGColor;
+    self.rateButton.layer.backgroundColor = [UIColor colorWithRed:rd green:gr blue:bl alpha:1.0].CGColor;
+    self.pollButton.layer.backgroundColor = [UIColor colorWithRed:rd green:gr blue:bl alpha:1.0].CGColor;
+    
+    self.commentButton.titleLabel.textColor = [UIColor whiteColor];
+    self.rateButton.titleLabel.textColor = [UIColor whiteColor];
+    self.pollButton.titleLabel.textColor = [UIColor whiteColor];
+    self.buttonLabel.textColor=[UIColor colorWithRed:rd green:gr blue:bl alpha:1.0];
 }
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,6 +47,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -38,9 +57,6 @@
 }
 #pragma mark - actions
 -(IBAction)tuneIn:(id)sender{
-    float rd = 50.00/255.00;
-    float gr = 79.00/255.00;
-    float bl = 133.00/255.00;
     if([self.buttonLabel.text isEqualToString:(@"Tuned in")]){
         self.buttonLabel.text=@"Tune in!";
         self.buttonLabel.backgroundColor=[UIColor clearColor];
@@ -50,5 +66,6 @@
         self.buttonLabel.backgroundColor=[UIColor colorWithRed:rd green:gr blue:bl alpha:1.0];
         self.buttonLabel.textColor=[UIColor whiteColor];
     }
+    
 }
 @end

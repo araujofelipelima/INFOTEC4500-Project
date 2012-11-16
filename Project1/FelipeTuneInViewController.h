@@ -10,6 +10,10 @@
 
 @interface FelipeTuneInViewController : UIViewController
 @property(nonatomic,strong) IBOutlet UIButton *TuneInButton;
+@property(nonatomic,strong) IBOutlet UIButton *commentButton;
+@property(nonatomic,strong) IBOutlet UIButton *rateButton;
+@property(nonatomic,strong) IBOutlet UIButton *pollButton;
 @property(nonatomic,strong) IBOutlet UILabel *buttonLabel;
+@property BOOL toggleButton;
 -(IBAction)tuneIn:(id)sender;
 @end
