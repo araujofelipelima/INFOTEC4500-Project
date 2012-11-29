@@ -33,7 +33,13 @@ float bl = 204.00/255.00;
     self.commentButton.titleLabel.textColor = [UIColor whiteColor];
     self.rateButton.titleLabel.textColor = [UIColor whiteColor];
     self.pollButton.titleLabel.textColor = [UIColor whiteColor];
+<<<<<<< HEAD
     self.buttonLabel.textColor=[UIColor colorWithRed:rd green:gr blue:bl alpha:1.0];
+=======
+    
+    
+
+>>>>>>> Changed rate and comment pages
 }
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
