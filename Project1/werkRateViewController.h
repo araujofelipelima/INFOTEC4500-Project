@@ -18,8 +18,14 @@ int fearCount;
 @property(nonatomic,strong) IBOutlet UIButton *sad;
 @property(nonatomic,strong) IBOutlet UIButton *fear;
 @property(nonatomic,strong) IBOutlet UIButton *angry;
+@property(nonatomic,strong) IBOutlet UIButton *submitButton;
+@property(nonatomic,strong) IBOutlet UIPageControl *happyPage;
+@property(nonatomic,strong) IBOutlet UIPageControl *sadPage;
+@property(nonatomic,strong) IBOutlet UIPageControl *fearPage;
+@property(nonatomic,strong) IBOutlet UIPageControl *angryPage;
 -(IBAction)happyPlus;
 -(IBAction)sadPlus;
 -(IBAction)angryPlus;
 -(IBAction)surprisePlus;
+-(IBAction)submit:(id)sender;
 @end

@@ -46,7 +46,7 @@
     
     // TODO: check is logged in
     
-    [self.window.rootViewController performSegueWithIdentifier:@"loginSegue" sender: self];
+    //[self.window.rootViewController performSegueWithIdentifier:@"loginSegue" sender: self];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

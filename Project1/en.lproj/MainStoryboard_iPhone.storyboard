@@ -12,19 +12,9 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <searchBar key="tableHeaderView" opaque="NO" clipsSubviews="YES" contentMode="redraw" text="" placeholder="Search channels" id="mnM-gJ-N6o">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <color key="tintColor" red="0.14509804546833038" green="0.45490199327468872" blue="0.70196080207824707" alpha="1" colorSpace="deviceRGB"/>
-                            <textInputTraits key="textInputTraits"/>
-                            <scopeButtonTitles>
-                                <string>Title</string>
-                                <string>Title</string>
-                            </scopeButtonTitles>
-                        </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="tableCell" textLabel="8qz-lh-5fQ" style="IBUITableViewCellStyleDefault" id="mUM-du-04i">
-                                <rect key="frame" x="0.0" y="66" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
@@ -75,19 +65,9 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <searchBar key="tableHeaderView" opaque="NO" clipsSubviews="YES" contentMode="redraw" placeholder="Search shows" id="JaU-dA-awA">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <color key="tintColor" red="0.14509804546833038" green="0.45490199327468872" blue="0.70196080207824707" alpha="1" colorSpace="deviceRGB"/>
-                            <textInputTraits key="textInputTraits"/>
-                            <scopeButtonTitles>
-                                <string>Title</string>
-                                <string>Title</string>
-                            </scopeButtonTitles>
-                        </searchBar>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="tableCell" textLabel="Qf2-yO-UKg" imageView="QMl-gO-DBx" style="IBUITableViewCellStyleDefault" id="oJT-Ik-WWX">
-                                <rect key="frame" x="0.0" y="66" width="320" height="44"/>
+                                <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="300" height="43"/>
@@ -266,7 +246,7 @@
                         <barButtonItem key="backBarButtonItem" title="Back" id="ixP-xp-MYH"/>
                     </navigationItem>
                     <connections>
-                        <outlet property="myTextField" destination="7NO-2B-mTh" id="Iai-ab-dHE"/>
+                        <outlet property="myTextView" destination="7NO-2B-mTh" id="Joo-Lh-Kl3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cgn-we-oxR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -615,6 +595,12 @@
         <image name="rate-icon.png" width="288" height="288"/>
     </resources>
     <classes>
+        <class className="CommentViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CommentViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="myTextView" candidateClass="UITextView"/>
+            </relationships>
+        </class>
         <class className="FelipeChannelViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FelipeChannelViewController.h"/>
             <relationships>
@@ -646,11 +632,17 @@
                 <relationship kind="action" name="angryPlus"/>
                 <relationship kind="action" name="happyPlus"/>
                 <relationship kind="action" name="sadPlus"/>
+                <relationship kind="action" name="submit:"/>
                 <relationship kind="action" name="surprisePlus"/>
                 <relationship kind="outlet" name="angry" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="angryPage" candidateClass="UIPageControl"/>
                 <relationship kind="outlet" name="fear" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="fearPage" candidateClass="UIPageControl"/>
                 <relationship kind="outlet" name="happy" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="happyPage" candidateClass="UIPageControl"/>
                 <relationship kind="outlet" name="sad" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="sadPage" candidateClass="UIPageControl"/>
+                <relationship kind="outlet" name="submitButton" candidateClass="UIButton"/>
             </relationships>
         </class>
     </classes>

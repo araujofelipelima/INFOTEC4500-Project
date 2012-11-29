@@ -1,18 +1,18 @@
 //
-//  DJonesLoginViewController.m
+//  CommentViewController.m
 //  Project1
 //
-//  Created by David on 11/15/12.
+//  Created by Justin Weisser on 11/29/12.
 //  Copyright (c) 2012 Justin Weisser. All rights reserved.
 //
-/*
-#import "DJonesLoginViewController.h"
 
-@interface DJonesLoginViewController ()
+#import "CommentViewController.h"
+
+@interface CommentViewController ()
 
 @end
 
-@implementation DJonesLoginViewController
+@implementation CommentViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,16 +35,4 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)validateLogin
-{ 
-    // this will post to login API
-    // get app session token and store somewhere
-    
-    if ([self.username.text isEqualToString:@"test"] && [self.password.text isEqualToString:@"test1"])
-    {
-        [self dismissModalViewControllerAnimated: (YES)];        
-    }
-        
-}
-
-@end */
+@end
