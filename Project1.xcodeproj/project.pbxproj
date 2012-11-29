@@ -9,12 +9,6 @@
 /* Begin PBXBuildFile section */
 		01116E99164C63E700246548 /* comment-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01116E97164C63E700246548 /* comment-icon.png */; };
 		01116E9A164C63E700246548 /* poll-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01116E98164C63E700246548 /* poll-icon.png */; };
-<<<<<<< HEAD
-=======
-		01116E9D164C7DAD00246548 /* rate-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01116E9C164C7DAD00246548 /* rate-icon.png */; };
-		011CE1081652CB5000D62CEE /* bluebackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 011CE1071652CB5000D62CEE /* bluebackground.png */; };
-		011CE10C1667DF5D00D62CEE /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 011CE10B1667DF5D00D62CEE /* CommentViewController.m */; };
->>>>>>> Changed rate and comment pages
 		0197E004161223280061DAB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0197E003161223280061DAB2 /* UIKit.framework */; };
 		0197E006161223280061DAB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0197E005161223280061DAB2 /* Foundation.framework */; };
 		0197E008161223280061DAB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0197E007161223280061DAB2 /* CoreGraphics.framework */; };
@@ -71,13 +65,6 @@
 /* Begin PBXFileReference section */
 		01116E97164C63E700246548 /* comment-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "comment-icon.png"; sourceTree = SOURCE_ROOT; };
 		01116E98164C63E700246548 /* poll-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "poll-icon.png"; sourceTree = SOURCE_ROOT; };
-<<<<<<< HEAD
-=======
-		01116E9C164C7DAD00246548 /* rate-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "rate-icon.png"; path = "../../Downloads/rate-icon.png"; sourceTree = "<group>"; };
-		011CE1071652CB5000D62CEE /* bluebackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bluebackground.png; path = ../../Downloads/bluebackground.png; sourceTree = "<group>"; };
-		011CE10A1667DF5D00D62CEE /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
-		011CE10B1667DF5D00D62CEE /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
->>>>>>> Changed rate and comment pages
 		0197DFFF161223280061DAB2 /* Project1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0197E003161223280061DAB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0197E005161223280061DAB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -194,8 +181,6 @@
 				0197E012161223280061DAB2 /* AppDelegate.h */,
 				0197E013161223280061DAB2 /* AppDelegate.m */,
 				0197E015161223280061DAB2 /* MainStoryboard_iPhone.storyboard */,
-				011CE10A1667DF5D00D62CEE /* CommentViewController.h */,
-				011CE10B1667DF5D00D62CEE /* CommentViewController.m */,
 				D113C63B164995C800F050A3 /* werkRateViewController.h */,
 				D113C63C164995C800F050A3 /* werkRateViewController.m */,
 				F1F4D6261630DC060020A41B /* FelipeChannelViewController.h */,
@@ -414,11 +399,7 @@
 				F1F4D62E1630EBAA0020A41B /* FelipeShowViewController.m in Sources */,
 				F116E97D163A116B000AFDE8 /* FelipeDataProvider.m in Sources */,
 				D113C63D164995C800F050A3 /* werkRateViewController.m in Sources */,
-<<<<<<< HEAD
 				637800631655CBD8009537AC /* DJonesLoginViewController.m in Sources */,
-=======
-				011CE10C1667DF5D00D62CEE /* CommentViewController.m in Sources */,
->>>>>>> Changed rate and comment pages
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
