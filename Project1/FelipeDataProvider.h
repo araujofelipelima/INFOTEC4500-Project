@@ -10,7 +10,8 @@
 
 @interface FelipeDataProvider : NSObject
 
-@property (nonatomic, strong) NSArray *data;
+@property (nonatomic, strong) NSArray *dataC;
+@property (nonatomic, strong) NSArray *dataS;
 - (void)fetch;
 - (id)channels;
 - (id)shows:(int)index;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2840" systemVersion="11E2620" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="a3V-EU-PnS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="11G63" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="a3V-EU-PnS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1926"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
         <!--Felipe Channel View Controller - Channel-->
@@ -265,9 +265,6 @@
                     <navigationItem key="navigationItem" title="Comment" id="IbK-XZ-yx6">
                         <barButtonItem key="backBarButtonItem" title="Back" id="ixP-xp-MYH"/>
                     </navigationItem>
-                    <connections>
-                        <outlet property="myTextField" destination="7NO-2B-mTh" id="Iai-ab-dHE"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cgn-we-oxR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -345,7 +342,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pk1-eJ-Hh9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2462" y="-11"/>
+            <point key="canvasLocation" x="2428" y="-11"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="bsB-ry-SZU">
@@ -546,24 +543,36 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="happyPlus" destination="sDg-Pc-Q2I" eventType="valueChanged" id="Fm3-xW-2r1"/>
+                                        </connections>
                                     </pageControl>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" id="c93-7n-a30">
                                         <rect key="frame" x="180" y="165" width="88" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="angryPlus" destination="sDg-Pc-Q2I" eventType="valueChanged" id="wXV-7N-ZRB"/>
+                                        </connections>
                                     </pageControl>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" id="evY-yi-hqd">
                                         <rect key="frame" x="35" y="358" width="88" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="sadPlus" destination="sDg-Pc-Q2I" eventType="valueChanged" id="i0V-gm-V8q"/>
+                                        </connections>
                                     </pageControl>
                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="4" id="mIm-mh-eF0">
                                         <rect key="frame" x="180" y="358" width="88" height="36"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="pageIndicatorTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="surprisePlus" destination="sDg-Pc-Q2I" eventType="valueChanged" id="g0R-UL-4rn"/>
+                                        </connections>
                                     </pageControl>
                                 </subviews>
                                 <gestureRecognizers/>
@@ -576,14 +585,9 @@
                     </navigationItem>
                     <connections>
                         <outlet property="angry" destination="0ew-2v-5n0" id="KIt-mX-pNe"/>
-                        <outlet property="angryPage" destination="c93-7n-a30" id="mWx-UL-1Uv"/>
                         <outlet property="fear" destination="I1L-gL-Ayd" id="cHH-Sv-MFP"/>
-                        <outlet property="fearPage" destination="mIm-mh-eF0" id="avb-Rh-dl3"/>
                         <outlet property="happy" destination="2nG-7T-d74" id="E75-VQ-Cnd"/>
-                        <outlet property="happyPage" destination="dUJ-wz-es3" id="CYV-tr-9Wv"/>
                         <outlet property="sad" destination="Uym-Yu-nsF" id="KJU-SI-c3H"/>
-                        <outlet property="sadPage" destination="evY-yi-hqd" id="CrE-5A-c4E"/>
-                        <outlet property="submitButton" destination="bGp-eb-VJP" id="lwP-e7-ZRU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oan-tf-PQI" userLabel="First Responder" sceneMemberID="firstResponder"/>

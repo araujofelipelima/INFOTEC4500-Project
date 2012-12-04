@@ -45,8 +45,6 @@
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     
     // TODO: check is logged in
-    
-    [self.window.rootViewController performSegueWithIdentifier:@"loginSegue" sender: self];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application

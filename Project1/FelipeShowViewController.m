@@ -23,7 +23,7 @@
     return self;
 }
 -(void) refresh{
-    self.data=[self.dataProvider shows:self.selection][@"shows"];
+    self.data=[self.dataProvider shows:self.selection];
     [self.tableView reloadData];
 }
 -(void)receivedError{
@@ -40,7 +40,7 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(refresh) name:@"FelipeDataProviderDidFinishParsing" object:nil];
 	[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receivedError) name:@"FelipeDataProviderDidFail" object:nil];
     self.dataProvider = [FelipeDataProvider sharedInstance];
-    self.data=self.channel[@"shows"];
+    self.data = [self.dataProvider shows:self.selection];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
 
@@ -78,7 +78,7 @@
 
     // Configure the cell...
     if (self.data != nil) {
-        cell.textLabel.text = [self.data objectAtIndex: indexPath.row][@"showName"];
+        cell.textLabel.text = [self.data objectAtIndex: indexPath.row][@"name"];
     }
     else
     {
