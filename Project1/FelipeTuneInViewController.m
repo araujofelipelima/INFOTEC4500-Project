@@ -20,20 +20,10 @@ float gr = 169.00/255.00;
 float bl = 204.00/255.00;
 
 - (void)viewWillAppear:(BOOL)animated{
-    
-    self.buttonLabel.layer.cornerRadius=8;
-    self.commentButton.layer.cornerRadius = 8;
-    self.rateButton.layer.cornerRadius = 8;
-    self.pollButton.layer.cornerRadius  = 8;
-    
-    self.commentButton.layer.backgroundColor = [UIColor colorWithRed:rd green:gr blue:bl alpha:1.0].CGColor;
-    self.rateButton.layer.backgroundColor = [UIColor colorWithRed:rd green:gr blue:bl alpha:1.0].CGColor;
-    self.pollButton.layer.backgroundColor = [UIColor colorWithRed:rd green:gr blue:bl alpha:1.0].CGColor;
-    
     self.commentButton.titleLabel.textColor = [UIColor whiteColor];
     self.rateButton.titleLabel.textColor = [UIColor whiteColor];
     self.pollButton.titleLabel.textColor = [UIColor whiteColor];
-    self.buttonLabel.textColor=[UIColor colorWithRed:rd green:gr blue:bl alpha:1.0];
+
 }
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -42,12 +32,17 @@ float bl = 204.00/255.00;
     }
     return self;
 }
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
-    
+	self.buttonLabel.layer.cornerRadius=8;
+    self.commentButton.layer.cornerRadius = 8;
+    self.rateButton.layer.cornerRadius = 8;
+    self.pollButton.layer.cornerRadius  = 8;
+    self.commentButton.layer.backgroundColor = [UIColor colorWithRed:rd green:gr blue:bl alpha:1.0].CGColor;
+    self.rateButton.layer.backgroundColor = [UIColor colorWithRed:rd green:gr blue:bl alpha:1.0].CGColor;
+    self.pollButton.layer.backgroundColor = [UIColor colorWithRed:rd green:gr blue:bl alpha:1.0].CGColor;
+    self.buttonLabel.textColor=[UIColor colorWithRed:rd green:gr blue:bl alpha:1.0];
 }
 
 - (void)didReceiveMemoryWarning

@@ -15,34 +15,53 @@
 - (void)fetch
 {
 	//NSString *URLString = @"https://dl.dropbox.com/s/qkcnyx4ig1kkfyk/project1data.json?dl=1";
-    NSString *URLString=@"https://dl.dropbox.com/s/lua59i2tfq53wgr/project1data2.json?dl=1";
+    //NSString *URLString=@"https://dl.dropbox.com/s/lua59i2tfq53wgr/project1data2.json?dl=1";
+    NSString *URLString=@"http://muit4500team3.herokuapp.com/api/v1/channels";
 	NSURL *URL = [NSURL URLWithString:URLString];
 	NSURLRequest *request = [NSURLRequest requestWithURL:URL];
 	[NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error){
 		NSHTTPURLResponse *HTTPResponse = (NSHTTPURLResponse *)response;
 		NSLog(@"%d", HTTPResponse.statusCode);
 		if (HTTPResponse.statusCode == 200) {
-			[self parseData:data];
+			[self parseChannel:data];
+            NSString *URLString=@"http://muit4500team3.herokuapp.com/api/v1/shows";
+            NSURL *URL = [NSURL URLWithString:URLString];
+            NSURLRequest *request = [NSURLRequest requestWithURL:URL];
+            [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:^(NSURLResponse *response, NSData *data, NSError *error){
+                NSHTTPURLResponse *HTTPResponse = (NSHTTPURLResponse *)response;
+                NSLog(@"%d", HTTPResponse.statusCode);
+                if (HTTPResponse.statusCode == 200) {
+                    [self parseShow:data];
+                } else {
+                    [[NSNotificationCenter defaultCenter] postNotificationName:@"FelipeDataProviderDidFail" object:self];
+                }
+            }];
 		} else {
-			[[NSNotificationCenter defaultCenter] postNotificationName:@"FelipeDataProviderDidFail" object:self];
+            [[NSNotificationCenter defaultCenter] postNotificationName:@"FelipeDataProviderDidFail" object:self];
 		}
 	}];
 }
 
-- (void)parseData:(NSData *)data
+- (void)parseChannel:(NSData *)data
 {
-	NSDictionary *dataSetDictionary = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-
-	self.data = dataSetDictionary[@"channel"];
+	self.dataC = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+	// Notifiy observers that new data is available
+	//[[NSNotificationCenter defaultCenter] postNotificationName:@"FelipeDataProviderDidFinishParsing" object:self];
+}
+- (void)parseShow:(NSData *)data
+{
+	self.dataS = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
 	// Notifiy observers that new data is available
 	[[NSNotificationCenter defaultCenter] postNotificationName:@"FelipeDataProviderDidFinishParsing" object:self];
 }
+
 - (NSArray *)channels{
     //return self.data[0][@"channelName"];
-    return self.data;
+    return self.dataC;
 }
 - (id)shows:(int)index{
-    return self.data[index];
+    NSArray *anArray = [self.dataS filteredArrayUsingPredicate:([NSPredicate  predicateWithFormat:@"channel_id == %d",index])];
+    return anArray;
 }
 + (id)sharedInstance
 {

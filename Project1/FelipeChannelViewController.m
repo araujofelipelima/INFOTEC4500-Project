@@ -26,7 +26,7 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if([segue.identifier isEqualToString:@"channelToShow"]){
         FelipeShowViewController *destinationViewController = (FelipeShowViewController *)segue.destinationViewController;
-        destinationViewController.selection=self.tableView.indexPathForSelectedRow.row;
+        destinationViewController.selection=[[self.data objectAtIndex:self.tableView.indexPathForSelectedRow.row][@"id"] integerValue];
         destinationViewController.channel = [self.data objectAtIndex:self.tableView.indexPathForSelectedRow.row];
     }
 }
@@ -87,7 +87,7 @@
 
     // Configure the cell...
     if (self.data != nil) {
-        cell.textLabel.text = [self.data objectAtIndex: indexPath.row][@"channelName"];
+        cell.textLabel.text = [self.data objectAtIndex: indexPath.row][@"name"];
     }
     else
     {
